@@ -4,7 +4,7 @@
 
 > It is a simple website where user submit their name and score that gets preserved in the external API and then gets displayed on the screen
 
-![](images/leader.png)
+![](images/leader2.png)
 
 ## Built With
 
