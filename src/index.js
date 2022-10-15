@@ -7,8 +7,8 @@ const addNewScore = document.querySelector('.add-new-score');
 addNewScore.addEventListener('submit', (e) => {
   e.preventDefault();
   const user = addNewScore.name.value;
-  const scoreNum = addNewScore.score.value;
-  newScore.addScore({ user, scoreNum });
+  const scoreNumber = addNewScore.score.value;
+  newScore.addScore({ user, scoreNumber });
   addNewScore.name.value = '';
   addNewScore.score.value = '';
 });

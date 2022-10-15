@@ -23,9 +23,9 @@ class Score {
       } catch (err) { return err; }
     };
 
-    addScore = async ({ user, scoreNum }) => {
+    addScore = async ({ user, scoreNumber }) => {
       try {
-        const newgame = { user, score: scoreNum };
+        const newgame = { user, score: scoreNumber };
         const config = {
           method: 'POST',
           headers: {
