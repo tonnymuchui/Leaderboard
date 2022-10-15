@@ -38,10 +38,6 @@ main {
   margin-left: 1rem;
 }
 
-.score-list li:nth-child(odd) {
-  background-color: rgb(231, 214, 214);
-}
-
 .refresh-btn {
   padding: 0.5rem 1.2rem;
   font-size: 17px;
@@ -69,6 +65,10 @@ input::-webkit-input-placeholder {
 .score-list li {
   padding: 12px;
   list-style: none;
+}
+
+.score-list li:nth-child(odd) {
+  background-color: rgb(231, 214, 214);
 }
 
 .add-score input {
